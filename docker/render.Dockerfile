@@ -1,3 +1,3 @@
-FROM langflowai/langflow:latest
+FROM wanderingbit/langflow:latest
 
 ENTRYPOINT ["python", "-m", "langflow", "run"]
